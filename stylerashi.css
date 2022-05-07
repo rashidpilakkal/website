@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Luckiest+Guy&family=Pacifico&family=Poppins:wght@200;300;400&family=Supermercado+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: rgb(226, 215, 215);
+   
+}
+nav{
+    position: fixed;
+    z-index: 1;
+    height: 58px;
+    width: 100%;
+}
+.nav-menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 50%;
+    margin-left: 452px;
+}
+
+.nav-menu ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Fredoka";
+}
+button{
+    background: white;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+.button-spacing{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 25px;
+}
+.btn{
+    width:131px;
+    height: 40px;
+}
+button span{
+    font-size: 20px;
+}
+.contact{
+    background: white;
+    color: black;
+}
+.nav-menu ul li:hover{
+    cursor: pointer;
+    color:rgb(0, 0, 0);
+    border-radius: 3px;
+    background:white;
+    
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 55px;
+}
+.logo{
+    width: 50%;
+}
+.logo h4{
+    margin-left: 28px;
+    color: white;
+    font-family: "Pacifico";
+    font-size: 24px;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(12, 12, 12)
+    
+ 
+}
+h1{
+    color: white;
+    font-size: 38px;
+    font-family: "Poppins";
+    z-index: 1;
+    margin-top: -17px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    width: 165px;
+    height: 150px;
+    
+    border-radius: 10px;
+    
+}
+
+.text h1 span{
+   font-weight: "400";
+    color: white;
+    font-size: 48px;
+    font-family: "Fredoka";
+}
+.text h5{
+    color: white;
+    font-family: "Poppins";
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 25PX;
+}
+
+.icon a{
+    color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 25px;
+    text-decoration: none;
+    
+
+}
+.icon{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+
+.icon i:hover{
+    font-size: 42px;
+}

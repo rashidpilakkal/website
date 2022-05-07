@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  background-image: url("images/Unknown.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px;
+}
+h1 {
+    color:rgb(216, 216, 216);
+    font-size: 70px;
+    font-family: Georgia;
+    z-index: 2;
+    margin-top: 80px;
+    text-align: center;
+}
+p {
+  color:rgb(212, 249, 255);
+  font-size: 30px;
+  font-family: Fredoka;
+  margin-left: 200px;
+  padding-left: 180px;
+  margin-top: 40px;
+  
+}
